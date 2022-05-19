@@ -52,6 +52,7 @@ To = 300 #Periode
 (ini aku cuma nyoba-nyoba ya)
 ```
 hasil _running_
+
 ![arus-grid](https://user-images.githubusercontent.com/89583653/169213291-9738891d-dc32-4d75-a006-76dcf50440e2.png)
 
 # In[1]:
