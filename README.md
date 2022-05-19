@@ -8,5 +8,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 5. Nisa Uswatun Khasanah 26050120130119
 6. Pilipus Najuita Nduru 26050120120008
 7. Yvetty Zilla Durhan 26050120120021
-![image](https://user-images.githubusercontent.com/89583653/169193644-c5b08cb8-f37d-40f0-88c3-5297c036fa4f.png)
+![image](https://user-images.githubusercontent.com/89583653/169193766-c166f246-073e-475f-b2e5-21c1f6f6eb73.png)
+
+
 
