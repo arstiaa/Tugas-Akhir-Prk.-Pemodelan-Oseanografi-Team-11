@@ -27,7 +27,23 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 -
 -
 ### 3.2. Hidrodinamika 1D
--
+hhhj
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+#
+# Proses Awal
+# 
+
+p = 5000 #Panjang Grid
+T = 1200 #Waktu Simulasi
+A = 0.5 #Amplitudo
+D = 15 #Depth/Kedalaman
+dt = 2
+dx = 100
+To = 300 #Periode
+```
 -
 -
 ### 3.3. Hidrodinamika 2D
