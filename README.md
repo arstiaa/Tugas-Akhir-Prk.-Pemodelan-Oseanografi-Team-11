@@ -27,23 +27,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 -
 -
 ### 3.2. Hidrodinamika 1D
-hhhj
-```
-import matplotlib.pyplot as plt
-import numpy as np
 
-#
-# Proses Awal
-# 
-
-p = 5000 #Panjang Grid
-T = 1200 #Waktu Simulasi
-A = 0.5 #Amplitudo
-D = 15 #Depth/Kedalaman
-dt = 2
-dx = 100
-To = 300 #Periode
-```
 -
 -
 ### 3.3. Hidrodinamika 2D
@@ -62,8 +46,7 @@ The NDBC keeps a 45-day recent rolling file for each buoy. This examples shows h
 the basic meteorological data from a buoy and make a simple plot.
 """
 ```
-hasil _running_
-![arus-grid](https://user-images.githubusercontent.com/89583653/169212145-b8e72878-254e-492e-ad0c-0535f6fb29e5.png)
+
 
 -
 
