@@ -48,6 +48,7 @@ dx = 100
 To = 300 #Periode
 ```
 Hasil _running_
+
 ![arus-grid](https://user-images.githubusercontent.com/89583653/169215436-e8b900b9-3dbd-41f6-9d81-5ac0dc54562d.png)
 
 -
