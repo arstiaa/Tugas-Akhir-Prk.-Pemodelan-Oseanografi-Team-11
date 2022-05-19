@@ -12,7 +12,9 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 # 2. Cara Penggunaan _Script_
 1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
+![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
 3. Nanti akan muncul _script_-nya seperti gambar di bawah ini
-4. Script dapat di-_copy_ untuk nantinya dipergunakan dan disesuaikan di _Jupyter Notebook_
+![image](https://user-images.githubusercontent.com/89583653/169198974-f7dc70ad-7edf-4b67-85f1-3685a3914558.png)
+4. _Script_ dapat di-_copy_ untuk nantinya dipergunakan dan disesuaikan di _Jupyter Notebook_
 
 
