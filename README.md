@@ -1,5 +1,5 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan metode numerik untuk penyelesaian perhitungan numerik. Pengerjaan untuk repositori kali ini, menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, IPython, Scipy, dan Pprint. Seluruh script yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 ## 1. AUTHORS (TEAM 11)
 1. Ariestia Finola Damanik 26050120120003
 2. Barriel Jimly Al Ariefanzah 26050120140122
