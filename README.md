@@ -31,6 +31,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 -
 -
 ### 3.3. Hidrodinamika 2D
+(ini aku cuma nyoba-nyoba ya)
 ```
 # In[1]:
 
