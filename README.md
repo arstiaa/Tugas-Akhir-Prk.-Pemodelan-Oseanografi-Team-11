@@ -62,7 +62,9 @@ The NDBC keeps a 45-day recent rolling file for each buoy. This examples shows h
 the basic meteorological data from a buoy and make a simple plot.
 """
 ```
--
+hasil _running_
+![arus-grid](https://user-images.githubusercontent.com/89583653/169212145-b8e72878-254e-492e-ad0c-0535f6fb29e5.png)
+
 -
 
 ## 4. Penutup
