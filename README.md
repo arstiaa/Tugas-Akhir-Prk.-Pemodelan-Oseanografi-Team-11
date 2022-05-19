@@ -5,6 +5,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 2. Barriel Jimly Al Ariefanzah 26050120140122
 3. Dimas Sukma Hadi 26050120140170
 4. Fahri Rahmalia 26050120130037
-5. Nisa Uswatun Khasanah26050120130119
+5. Nisa Uswatun Khasanah 26050120130119
 6. Pilipus Najuita Nduru 26050120120008
 7. Yvetty Zilla Durhan 26050120120021
+![image](https://user-images.githubusercontent.com/89583653/169193205-dd1f0676-6339-409e-9bdb-05793c8dd00d.png)
