@@ -31,18 +31,9 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 -
 -
 ### 3.3. Hidrodinamika 2D
-# In[1]:
+```
 
-
-# Copyright (c) 2018 Siphon Contributors.
-# Distributed under the terms of the BSD 3-Clause License
-#SPDX-License-Identifier: BSD-3-Clause
-"""
-NBDC Buoy Meteorological Data Request
-=====================================
-The NDBC keeps a 45-day recent rolling file for each buoy. This examples shows how to access
-the basic meteorological data from a buoy and make a simple plot.
-"""
+```
 -
 -
 
