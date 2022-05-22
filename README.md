@@ -24,7 +24,14 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 
 ### 3.1. Adveksi-Difusi 2D
 -
--
+📄Tutorial Pengerjaan Script📄
+1. _Mandatory library python matploblib_ dimasukkan supaya dapat diberikan efek visual pada grafik, kemudian _numpy_ untuk numerik, dan _sys_ untuk mengakses konfigurasi interpreter pada saat _runtime_. Pendefinisian juga dimasukkan.
+2. Parameter perhitungan polutan awal dimasukkan.
+3. _Script_ perhitungan dibuat untuk mengetahui persebaran polutan.
+4. _Script_ untuk _grid_ dibuat sebagai alat bantu untuk melihat persebaran polutan.
+5. Iterasi dilakukan hingga seluruh syarat batas terpenuhi.
+6. _Script output_ gambar dibuat untuk mendapatkan gambar penyebaran polutan.
+7. _Script_ dapat di-_run_.
 -
 ### 3.2. Hidrodinamika 1D
 -
