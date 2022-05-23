@@ -1,5 +1,5 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, dan NDBC. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 ## 1. AUTHORS (TEAM 11)
 1. Ariestia Finola Damanik 26050120120003
 2. Barriel Jimly Al Ariefanzah 26050120140122
@@ -10,7 +10,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 7. Yvetty Zilla Durhan 26050120120021
 
 ## 2. Cara Penggunaan _Script_
-1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
+1. Pengguna dapat membuka folder **Kumpulan Script** pada _repository_ ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
 ![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
 3. Nanti akan muncul _script_-nya seperti gambar di bawah ini
@@ -77,7 +77,7 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 ![image](https://user-images.githubusercontent.com/90328732/169703585-428001bb-a5cb-48f5-942b-a08be0cfb25a.png)
 
 
-📄Tutorial Pengerjaan Script dan Skenario Model📄
+📄Tutorial Pengerjaan _Script_ dan Skenario Model📄
 1. _Mandatory library python matploblib_ dimasukkan supaya dapat diberikan efek visual pada grafik, kemudian _numpy_ untuk numerik, dan _sys_ untuk mengakses konfigurasi interpreter pada saat _runtime_. Pendefinisian juga dimasukkan.
 2. Parameter perhitungan polutan awal dimasukkan.
 3. _Script_ perhitungan dibuat untuk mengetahui persebaran polutan.
@@ -119,7 +119,7 @@ Mmax = int(p//dx)
 Nmax = int(T//dt)
 ```
 
-Script Perhitungan
+_Script_ Perhitungan
 ```
 zo = [None for _ in range(Mmax)]
 uo = [None for _ in range (Mmax)]
