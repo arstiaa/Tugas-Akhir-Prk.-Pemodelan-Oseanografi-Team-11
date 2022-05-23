@@ -9,7 +9,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Pilipus Najuita Nduru 26050120120008
 7. Yvetty Zilla Durhan 26050120120021
 
-## 2. Cara Penggunaan _Script_ 💬🗂️
+## 2. Cara Penggunaan _Script_ 💬
 1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
 ![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
