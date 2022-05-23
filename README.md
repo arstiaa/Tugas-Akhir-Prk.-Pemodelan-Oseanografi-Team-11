@@ -9,7 +9,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Pilipus Najuita Nduru 26050120120008
 7. Yvetty Zilla Durhan 26050120120021
 
-## 2. Cara Penggunaan _Script_
+## 2. Cara Penggunaan _Script_💬
 1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
 ![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
@@ -17,7 +17,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 ![image](https://user-images.githubusercontent.com/89583653/169198974-f7dc70ad-7edf-4b67-85f1-3685a3914558.png)
 4. _Script_ dapat di-_copy_ untuk nantinya dipergunakan dan disesuaikan di _Jupyter Notebook_
 
-## 3. Metode Pengerjaan
+## 3. Metode Pengerjaan🛠️
 1. Adveksi-Difusi 2D
 2. Hidrodinamika 1D
 3. Hidrodinamika 2D
