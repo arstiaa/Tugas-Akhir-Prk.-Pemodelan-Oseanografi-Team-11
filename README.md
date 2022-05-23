@@ -265,9 +265,7 @@ Secara terperinci, berdasarkan praktikum Pemodelan Oseanografi sebanyak 4 modul 
 
 ## Ucapan Terima Kasih
 Demikian pemenuhan tugas akhir praktikum Pemodelan Oseanografi ini kami buat. 
-Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Sejatinya 
-
-Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
+Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
 1. Seluruh dosen pengampu mata kuliah Pemodelan Oseanografi yang memberikan gambaran umum terkait setiap materi;
     Dr. Aris Ismanto, S.Si, M.Si.
     Prof. Dr. Denny Nugroho Sugianto S.T., M.Si.
