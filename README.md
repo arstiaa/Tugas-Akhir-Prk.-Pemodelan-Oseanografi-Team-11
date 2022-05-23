@@ -111,13 +111,7 @@ for n in range (0, Nt):
 ```
 
 Hasil / Output Gambar
-
-![1](https://user-images.githubusercontent.com/105839721/169779697-93f88ffa-1e8e-4294-b842-1084b75df794.jpg)
-
-![101](https://user-images.githubusercontent.com/105839721/169779739-7d1beaec-db62-4346-ab4c-25020ce7011f.jpg)
-
-![200](https://user-images.githubusercontent.com/105839721/169779766-ada432e4-9106-43a1-9552-40c4da17ccab.jpg)
-
+```
 #Output Gambar
     plt.clf()
     plt.pcolor(x_mesh, y_mesh, F[n+1,:,:], cmap = 'seismic', shading = 'flat', edgecolor = 'k')
@@ -201,14 +195,14 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 -
 
 📄Hasil / Output gambar📄
-```
+
 ![1](https://user-images.githubusercontent.com/105839721/169779931-9d28d4f4-dce0-460c-b8fe-e453967d42e0.jpg)
 
 ![101](https://user-images.githubusercontent.com/105839721/169779967-c2fefb79-0f70-42c3-960a-ac26a0b122b1.jpg)
 
 ![200](https://user-images.githubusercontent.com/105839721/169779983-e2037773-9479-40e4-b324-25b400f48f94.jpg)
 
-```
+
 ### 3.2. Hidrodinamika 1D
 ```
 #!/usr/bin/env python
