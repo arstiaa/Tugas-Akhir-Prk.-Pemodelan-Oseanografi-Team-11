@@ -186,21 +186,6 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 
 📄Tutorial Pengerjaan Script dan Skenario Model📄
 1. _Mandatory library python matploblib_ dimasukkan supaya dapat diberikan efek visual pada grafik, kemudian _numpy_ untuk numerik, dan _sys_ untuk mengakses konfigurasi interpreter pada saat _runtime_. Pendefinisian juga dimasukkan.
-```
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-import matplotlib.pyplot as plt
-import numpy as np
-import sys
-#%%
-def percentage(part, whole):
-        percentage = 100 * float(part)/float(whole)
-        return str(round(percentage,2)) + "%"
-#%%
 2. Parameter perhitungan polutan awal dimasukkan.
 3. _Script_ perhitungan dibuat untuk mengetahui persebaran polutan.
 4. _Script_ untuk _grid_ dibuat sebagai alat bantu untuk melihat persebaran polutan.
