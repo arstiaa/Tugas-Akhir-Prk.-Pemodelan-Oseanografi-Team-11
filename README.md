@@ -174,7 +174,27 @@ for i in range (1, 16) :
 -
 
 ### 3.3. Hidrodinamika 2D
-(ini aku cuma nyoba-nyoba ya)
+📝Dasar Teori📝
+
+Model Hidrodinamika adalah simulasi suatu aliran yang didasarkan pada persamaan matematika dengan menggambarkan fenomena fisik aliran dan penyelesaian persamaan matematika secara numerik. Model Hidrodinamika 2D sendiri merupakan pemodelan hidrodinamika yang menggunakan lebih dari 1 parameter. 
+
+📝Parameter dan Anomali Hidrodinamika 2D📝
+- Parameter
+
+Parameter yang digunakan pada pemodelan hidrodinamika 2D meliputi lebih dari satu parameter. Contohnya, untuk memodelkan gelombang digunakan parameter arah angin dan juga kecepatan angin ataupun tekanan.
+- Anomali
+
+Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya diakibatkan oleh kondisi lapangan sesungguhnya dari parameter yang digunakan. Contohnya, dalam melakukan pemodelan gelombang dengan parameter angin. Tiupan angin yang berbeda-beda di berbagai situasi dapat mengakibatkan pemodelan tidak 100% sesuai dengan kondisi aslinya.
+
+📝Karakteristik Pemodelan Hidrodinamika 2D📝
+- Medan dipresentasikan sebagai hasil permukaan yang kontinu (x,y)
+- Kedalaman air tidak dianggap seragam
+- Kecepatan tidak dianggap seragam
+- Baik digunakan untuk gradien yang curam
+
+**Contoh Pemodelan Hidrodinamika 2D**
+1. _Script_ dapat diambil melalui folder yang ada di repository ini
+2. Pada awal _script_ dimasukkan darimana data-data diambil.
 ```
 # In[1]:
 
@@ -189,8 +209,48 @@ The NDBC keeps a 45-day recent rolling file for each buoy. This examples shows h
 the basic meteorological data from a buoy and make a simple plot.
 """
 ```
+3. Dilakukan penginputan data dan _library_ 
+```
+import matplotlib.pyplot as plt
+
+from siphon.simplewebservice.ndbc import NDBC
+
+###################################################
+# Get a pandas data framw of all of the observation, meteorological data is the default
+# observation set the query.
+df = NDBC.realtime_observations('51003') #Station ID
+df.head()
+```
+4. Membuat plot time series untuk _pressure, wind speed, gust, direction,_ dan _water temperature_
+```
+###################################################
+# Let's make a simple time series plot to checkout what the data look like
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
+ax2b = ax2.twinx()
+
+# Pressure
+ax1.plot(df['time'], df['pressure'], color='black')
+ax1.set_ylabel('pressure [hPa]')
+fig.suptitle('Team 11_Praktikum Pemodelan Oseanografi 2022', fontsize=18)
 
 
--
+# Wind speed, gust, direction
+ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
+ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+ax2.set_ylabel('Wind Speed [m/s]')
+ax2.set_ylabel('Wind Direction')
+
+
+#Water temperature
+ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
+ax3.set_ylabel('Water Temperature [degC]')
+
+plt.show()
+```
+Berikut hasil _running script_
+
+![image](https://user-images.githubusercontent.com/89583653/169735133-878f2913-9057-4fc2-91c5-ba99444edcb1.png)
+
 
 ## 4. Penutup
