@@ -1,6 +1,6 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
-## 1. AUTHORS (TEAM 11)
+## 1. AUTHORS (TEAM 11)👩🏻‍🧑🏻‍💻 
 1. Ariestia Finola Damanik 26050120120003
 2. Barriel Jimly Al Ariefanzah 26050120140122
 3. Dimas Sukma Hadi 26050120140170
@@ -192,7 +192,7 @@ Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya
 - Kecepatan tidak dianggap seragam
 - Baik digunakan untuk gradien yang curam
 
-Dalam pelaksanaan Praktikum pemodelan Oseanografi yang telah dilakuakan, dipelajari penggambaran serta interpretasi model di wilayah perairan, baik berupa aliran panjang dan dengan kedalaman tertentu. Dengan penggunaan model hidrodinamika 2 dimensi dapat diketahui identifikasi ketebalan persebaran oil spill di suatu perairan. Tidak hanya itu, model hidrodinamika 2d juga dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai.  Untuk lebih jelasnya, dapat dilihat contoh model data gelombang National Buoy Data Center (NDBC) di Peraian Hilo, Hawaii dekat Samudera Pasifik Utara dalam script berikut:
+Dalam pelaksanaan Praktikum pemodelan Oseanografi yang telah dilakukan, dipelajari penggambaran serta interpretasi model di wilayah perairan, baik berupa aliran panjang dan dengan kedalaman tertentu. Dengan penggunaan model hidrodinamika 2 dimensi dapat diketahui identifikasi ketebalan persebaran oil spill di suatu perairan. Tidak hanya itu, model hidrodinamika 2d juga dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai.  Untuk lebih jelasnya, dapat dilihat contoh model data gelombang National Buoy Data Center (NDBC) di Peraian Hilo, Hawaii dekat Samudera Pasifik Utara dalam script berikut:
 
 **Contoh Pemodelan Hidrodinamika 2D**
 1. _Script_ dapat diambil melalui folder yang ada di repository ini
@@ -257,13 +257,13 @@ plt.show()
 Dari grafik yang ada, dapat diinterpretasikan hasil bahwa dalam rentang 45 hari model bersifat fluktuatif mulai dari terjadi naik ataupun turunnya parameter hidro-oseanografi yang bekerja. Seperti pada keberadaan kecepatan angin dan nilai tekanan cenderung berubah-ubah setiap harinya. Grafik yang dihasilkan antara angin dan tekanan tidak terlalu jauh berbeda, karena diketahui bahwa angin merupakan udara yang bergerak dikarenakan perbedaan tekanan di permukaan bumi. Sehingga perbedaan tekanan juga mempengaruhi perubahan kecepatan dan arah angin di permukaan laut. Dalam rentang 45 hari pengamatan, yakni bulan April-Mei diketahui memasuki musim Peralihan I dari musim kemarau ke hujan. Apabila dikaitkan dengan variabilitas musiman gelombang dan arus yang bekerja di Perairan Samudera Pasifik bagian Utara maka pengaruh musim kemarau masih mendominasi. Didapatkan pula nilai tertinggi suhu permukaan laut di bulan April-Mei yaitu 26,4 derajat C dan nilai minimum yaitu 25,4 derajat C. Tinggi rendahnya nilai suhu permukaan laut diduga akibat pengaruh pergerakan angin yang bekerja. Suhu minimal terjadi akibat keberadaan angin muson tenggara yang bertiup dan menyebabkan terjadinya Transpor Ekman, sehingga terjadi kekosongan yang berakibat naiknya air (upwelling) yang membawa suhu rendah dari bawah menuju ke lapisan permukaan.
 
 
-## 4. Penutup
+## 4. Penutup✨
 Secara terperinci, berdasarkan praktikum Pemodelan Oseanografi sebanyak 4 modul yang telah dilakukan, dapat ditarik ringkasan dan simpulan sebagai berikut:
-1. Penggabungan persamaan adveksi-difusi 2D pada dasarnya dapat dipergunakan dalam analisis pergerakan maupun perluasan polutan. Dalam mengetahui pergerakannya, perlu dilakukan diskritisasi terhadap persamaan yang ada dan dimasukkan dalam bahasa pemrograman berupa Phyton maupun Google Colab. Dalam proses perluasan serta penyebaran polutan yang terjadi, diketahui pula faktor penyebab polutan menyebar akibat faktor hidro-oseanografi (arah angin yang bekerja, gelombang dan arus).
+1. Penggabungan persamaan adveksi-difusi 2D pada dasarnya dapat dipergunakan dalam analisis pergerakan maupun perluasan polutan. Dalam mengetahui pergerakannya, perlu dilakukan diskritisasi terhadap persamaan yang ada dan dimasukkan dalam bahasa pemrograman berupa Phyton maupun Google Colab. Dalam proses perluasan serta penyebaran polutan yang terjadi, diketahui pula faktor penyebab polutan menyebar akibat faktor hidro-oseanografi (arah angin yang bekerja, gelombang dan arus) maupun karakteristik wilayah perairan yang ada.
 2. Model hidrodinamika 1D yang dipergunakan untuk memperhitungkan kondisi suatu aliran yang dihasilkan dari distribusi garam, suhu, tunduk pada berbagai kondisi gaya dan batas tertentu. Nantinya akan diketahui hubungan keberadaan waktu yang rendah serta akurasi simulasi dapat dikontrol dalam pemodelan yang digunakan. Mulai dari skema urutan yang kecil sampai lebih tinggi. Nilai serta simulasi skema yang dihasilkan juga dapat mengalami error akibat terlalu banyak data input atau keberadaan nilai parameter yang lebih kompleks. Oleh sebab itu, penggambaran grafik yang dihasilkan tidak selalu mulus. 
 3. Model hidrodinamika 2d sendiri dapat diartikan dengan penggambaran maupun tiruan dari suatu fenomena/kejadian/proses pada suatu waktu tertentu. Dengan penggunaan hidrodinamika 2d dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai. Untuk praktik pemodelan yang telah dilakukan, diketahui hubungan atau korelasi antara kecepatan angin dan tinggi gelombang yang sifatnya linier. Artinya, semakin besar angin yang bekerja (kecepatan dalam knots) pada suatu wilayah periaran maka semakin besar pula gelombang ataupun arus yang akan terbentuk. 
 
-## Ucapan Terima Kasih
+## Ucapan Terima Kasih🫧
 Demikian pemenuhan tugas akhir praktikum Pemodelan Oseanografi ini kami buat. 
 Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
 1. Seluruh dosen pengampu mata kuliah Pemodelan Oseanografi yang memberikan gambaran umum terkait setiap materi;
@@ -271,8 +271,12 @@ Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan sec
     Prof. Dr. Denny Nugroho Sugianto S.T., M.Si.
     Dr. Elis Indrayanti S.T., M.Si.
     Rikha Widiaratih, S.Si, M.Si. 
-2. Seluruh Tim Asisten Praktikum Pemodelan Oseanografi 2022 yang mendampingi dalam praktikum sampai dengan pengerjaan tugas akhir, serta 
-3. Rekan-rekan Oseanografi 2020 yang turut membantu dan mendukung penyelesaian tugas akhir.
+2. Seluruh Tim Asisten Praktikum Pemodelan Oseanografi 2022 yang mendampingi dalam praktikum sampai dengan pengerjaan tugas akhir;
+    Sekar Adiningsih
+    Gamma Haqqul Fikriawan
+    Clara Clarita
+    Yoas Heryanto
+4. Rekan-rekan Oseanografi 2020 yang turut membantu dan mendukung penyelesaian tugas akhir.
 
 Tidak menutup kemungkinan, bahwa repository ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran masih sangat diperlukan agar dapat menjadikannya lebih baik. Diharapkan pula, dengan adanya repository ini dapat memberikan kebermanfaatan untuk semua.
 
