@@ -111,7 +111,7 @@ for n in range (0, Nt):
 ```
 
 Hasil / Output Gambar
-```
+
 ![1](https://user-images.githubusercontent.com/105839721/169779697-93f88ffa-1e8e-4294-b842-1084b75df794.jpg)
 
 ![101](https://user-images.githubusercontent.com/105839721/169779739-7d1beaec-db62-4346-ab4c-25020ce7011f.jpg)
