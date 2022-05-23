@@ -194,7 +194,7 @@ Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya
 
 **Contoh Pemodelan Hidrodinamika 2D**
 1. _Script_ dapat diambil melalui folder yang ada di repository ini
-2. Pada awal _script_ dimasukkan darimana data-data diambil.
+2. Pada awal _script_ diberikan keterangan terlebih dahulu, dimana data-data diambil.
 ```
 # In[1]:
 
@@ -221,7 +221,7 @@ from siphon.simplewebservice.ndbc import NDBC
 df = NDBC.realtime_observations('51003') #Station ID
 df.head()
 ```
-4. Membuat plot time series untuk _pressure, wind speed, gust, direction,_ dan _water temperature_
+4. Membuat _plot time series_ untuk _pressure, wind speed, gust, direction,_ dan _water temperature_
 ```
 ###################################################
 # Let's make a simple time series plot to checkout what the data look like
@@ -248,9 +248,11 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 plt.show()
 ```
-Berikut hasil _running script_
+5. Hasil _running script_
 
 ![image](https://user-images.githubusercontent.com/89583653/169735133-878f2913-9057-4fc2-91c5-ba99444edcb1.png)
 
 
 ## 4. Penutup
+
+## Ucapan Terima Kasih
