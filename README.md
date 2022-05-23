@@ -1,5 +1,5 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib,_ dan _NDBC_ (dari siphon.simplewebservice.ndbc). Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 ## 1. AUTHORS (TEAM 11)
 1. Ariestia Finola Damanik 26050120120003
 2. Barriel Jimly Al Ariefanzah 26050120140122
@@ -10,7 +10,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 7. Yvetty Zilla Durhan 26050120120021
 
 ## 2. Cara Penggunaan _Script_
-1. Pengguna dapat membuka folder **Kumpulan Script** pada _repository_ ini
+1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
 ![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
 3. Nanti akan muncul _script_-nya seperti gambar di bawah ini
@@ -77,7 +77,7 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 ![image](https://user-images.githubusercontent.com/90328732/169703585-428001bb-a5cb-48f5-942b-a08be0cfb25a.png)
 
 
-📄Tutorial Pengerjaan _Script_ dan Skenario Model📄
+📄Tutorial Pengerjaan Script dan Skenario Model📄
 1. _Mandatory library python matploblib_ dimasukkan supaya dapat diberikan efek visual pada grafik, kemudian _numpy_ untuk numerik, dan _sys_ untuk mengakses konfigurasi interpreter pada saat _runtime_. Pendefinisian juga dimasukkan.
 2. Parameter perhitungan polutan awal dimasukkan.
 3. _Script_ perhitungan dibuat untuk mengetahui persebaran polutan.
@@ -119,7 +119,7 @@ Mmax = int(p//dx)
 Nmax = int(T//dt)
 ```
 
-_Script_ Perhitungan
+Script Perhitungan
 ```
 zo = [None for _ in range(Mmax)]
 uo = [None for _ in range (Mmax)]
@@ -176,7 +176,7 @@ for i in range (1, 16) :
 ### 3.3. Hidrodinamika 2D
 📝Dasar Teori📝
 
-Model Hidrodinamika adalah simulasi suatu aliran yang didasarkan pada persamaan matematika dengan menggambarkan fenomena fisik aliran dan penyelesaian persamaan matematika secara numerik. Model Hidrodinamika 2D sendiri merupakan pemodelan hidrodinamika yang menggunakan lebih dari 1 parameter. 
+Model Hidrodinamika adalah simulasi suatu aliran yang didasarkan pada persamaan matematika dengan menggambarkan fenomena fisik aliran dan penyelesaian persamaan matematika secara numerik. Model Hidrodinamika 2D sendiri merupakan pemodelan hidrodinamika yang menggunakan lebih dari 1 parameter. Sesuai dengan namanya, 2D, tentu memiliki 2 bentuk, entah panjang maupun lebar. Dalam model hidrodinamika 2d sendiri dapat diartikan dengan penggambaran maupun tiruan dati suatu fenomena/kejadian/proses pada suatu waktu tertentu dengan memperhatikan suatu parameter dan anomali yang terjadi.
 
 📝Parameter dan Anomali Hidrodinamika 2D📝
 - Parameter
@@ -184,7 +184,7 @@ Model Hidrodinamika adalah simulasi suatu aliran yang didasarkan pada persamaan 
 Parameter yang digunakan pada pemodelan hidrodinamika 2D meliputi lebih dari satu parameter. Contohnya, untuk memodelkan gelombang digunakan parameter arah angin dan juga kecepatan angin ataupun tekanan.
 - Anomali
 
-Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya diakibatkan oleh kondisi lapangan sesungguhnya dari parameter yang digunakan. Contohnya, dalam melakukan pemodelan gelombang dengan parameter angin. Tiupan angin yang berbeda-beda di berbagai situasi dapat mengakibatkan pemodelan tidak 100% sesuai dengan kondisi aslinya.
+Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya diakibatkan oleh kondisi lapangan sesungguhnya dari parameter yang digunakan. Contohnya, dalam melakukan pemodelan gelombang dengan parameter angin. Tiupan angin yang berbeda-beda di berbagai situasi dapat mengakibatkan pemodelan tidak 100% sesuai dengan kondisi aslinya. 
 
 📝Karakteristik Pemodelan Hidrodinamika 2D📝
 - Medan dipresentasikan sebagai hasil permukaan yang kontinu (x,y)
@@ -192,8 +192,10 @@ Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya
 - Kecepatan tidak dianggap seragam
 - Baik digunakan untuk gradien yang curam
 
+Dalam pelaksanaan Praktikum pemodelan Oseanografi yang telah dilakuakan, dipelajari penggambaran serta interpretasi model di wilayah perairan, baik berupa aliran panjang dan dengan kedalaman tertentu. Dengan penggunaan model hidrodinamika 2 dimensi dapat diketahui identifikasi ketebalan persebaran oil spill di suatu perairan. Tidak hanya itu, model hidrodinamika 2d juga dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai.  Untuk lebih jelasnya, dapat dilihat pada script berikut:
+
 **Contoh Pemodelan Hidrodinamika 2D**
-1. _Script_ dapat diambil melalui folder yang ada di _repository_ ini
+1. _Script_ dapat diambil melalui folder yang ada di repository ini
 2. Pada awal _script_ diberikan keterangan terlebih dahulu, dimana data-data diambil.
 ```
 # In[1]:
@@ -254,5 +256,30 @@ plt.show()
 
 
 ## 4. Penutup
+Secara terperinci, berdasarkan praktikum Pemodelan Oseanografi sebanyak 4 modul yang telah dilakukan, dapat ditarik ringkasan dan simpulan sebagai berikut:
+1. Keberadaan persamaan adveksi-difusi 1D sangat diperlukan dalam bidang ilmu oseanografi, khususnya berguna untuk memodelkan fenomena yang terjadi di Lautan. 
+2. Penggabungan persamaan adveksi-difusi 2D pada dasarnya dapat dipergunakan dalam analisis pergerakan maupun perluasan polutan. Dalam mengetahui pergerakannya, perlu dilakukan diskritisasi terhadap persamaan yang ada dan dimasukkan dalam bahasa pemrograman berupa Phyton maupun Google Colab. Dalam proses perluasan serta penyebaran polutan yang terjadi, diketahui pula faktor penyebab polutan menyebar akibat faktor hidro-oseanografi (arah angin yang bekerja, gelombang dan arus).
+3. Model hidrodinamika 1D yang dipergunakan untuk memperhitungkan kondisi suatu aliran yang dihasilkan dari distribusi garam, suhu, tunduk pada berbagai kondisi gaya dan batas tertentu. Nantinya akan diketahui hubungan keberadaan waktu yang rendah serta akurasi simulasi dapat dikontrol dalam pemodelan yang digunakan. Mulai dari skema urutan yang kecil sampai lebih tinggi. Nilai serta simulasi skema yang dihasilkan juga dapat mengalami error akibat terlalu banyak data input atau keberadaan nilai parameter yang lebih kompleks. Oleh sebab itu, penggambaran grafik yang dihasilkan tidak selalu mulus. 
+4. Model hidrodinamika 2d sendiri dapat diartikan dengan penggambaran maupun tiruan dari suatu fenomena/kejadian/proses pada suatu waktu tertentu. Dengan penggunaan hidrodinamika 2d dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai. Untuk praktik pemodelan yang telah dilakukan, diketahui hubungan atau kaitan antara kecepatan angin dan tinggi gelombang yang sifatnya linier. Artinya, semakin besar angin yang bekerja (kecepatan dalam knots) maka semakin besar pula gelombang ataupun arus yang akan terbentuk. 
 
 ## Ucapan Terima Kasih
+Demikian pemenuhan tugas akhir praktikum Pemodelan Oseanografi ini kami buat. 
+Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Sejatinya 
+
+Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
+1. Seluruh dosen pengampu mata kuliah Pemodelan Oseanografi yang memberikan gambaran umum terkait setiap materi;
+    Dr. Aris Ismanto, S.Si, M.Si.
+    Prof. Dr. Denny Nugroho Sugianto S.T., M.Si.
+    Dr. Elis Indrayanti S.T., M.Si.
+    Rikha Widiaratih, S.Si, M.Si. 
+2. Seluruh Tim Asisten Praktikum Pemodelan Oseanografi 2022 yang mendampingi dalam praktikum sampai dengan pengerjaan tugas akhir, serta 
+3. Rekan-rekan Oseanografi 2020 yang turut membantu dan mendukung penyelesaian tugas akhir.
+
+Tidak menutup kemungkinan, bahwa repository ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran masih sangat diperlukan agar dapat menjadikannya lebih baik. Diharapkan pula, dengan adanya repository ini dapat memberikan kebermanfaatan untuk semua.
+
+Terima kasih.
+
+                                                                                                                                          Semarang, 25 Mei 2022
+                                                                                                                                                 Penulis
+                                                                                                                                          
+                                                                                                                                                 Tim 11
