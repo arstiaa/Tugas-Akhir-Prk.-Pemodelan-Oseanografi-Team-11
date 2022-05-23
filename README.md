@@ -280,7 +280,7 @@ Tidak menutup kemungkinan, bahwa repository ini masih jauh dari kata sempurna. O
 
 Terima kasih.
 
-                                                                                                                                          Semarang, 25 Mei 2022
-                                                                                                                                                 Penulis
+                                                                                                                 Semarang, 25 Mei 2022
+                                                                                                                         Penulis
                                                                                                                                           
-                                                                                                                                                 Tim 11
+                                                                                                                          Tim 11
