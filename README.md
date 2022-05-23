@@ -1,5 +1,5 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, dan NDBC. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib,_ dan _NDBC_ (dari siphon.simplewebservice.ndbc). Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 ## 1. AUTHORS (TEAM 11)
 1. Ariestia Finola Damanik 26050120120003
 2. Barriel Jimly Al Ariefanzah 26050120140122
@@ -193,7 +193,7 @@ Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya
 - Baik digunakan untuk gradien yang curam
 
 **Contoh Pemodelan Hidrodinamika 2D**
-1. _Script_ dapat diambil melalui folder yang ada di repository ini
+1. _Script_ dapat diambil melalui folder yang ada di _repository_ ini
 2. Pada awal _script_ diberikan keterangan terlebih dahulu, dimana data-data diambil.
 ```
 # In[1]:
