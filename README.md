@@ -1,4 +1,4 @@
-# Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)
+# Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)🗂
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 ## 1. AUTHORS (TEAM 11)👩🏻‍🧑🏻‍💻 
 1. Ariestia Finola Damanik 26050120120003
@@ -9,7 +9,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Pilipus Najuita Nduru 26050120120008
 7. Yvetty Zilla Durhan 26050120120021
 
-## 2. Cara Penggunaan _Script_ 💬
+## 2. Cara Penggunaan _Script_ 💬🗂️
 1. Pengguna dapat membuka folder **Kumpulan Script** pada repository ini
 2. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu
 ![image](https://user-images.githubusercontent.com/89583653/169198940-5e831637-1628-4be3-b0be-a87c5226ee7f.png)
@@ -263,7 +263,7 @@ Secara terperinci, berdasarkan praktikum Pemodelan Oseanografi sebanyak 4 modul 
 2. Model hidrodinamika 1D yang dipergunakan untuk memperhitungkan kondisi suatu aliran yang dihasilkan dari distribusi garam, suhu, tunduk pada berbagai kondisi gaya dan batas tertentu. Nantinya akan diketahui hubungan keberadaan waktu yang rendah serta akurasi simulasi dapat dikontrol dalam pemodelan yang digunakan. Mulai dari skema urutan yang kecil sampai lebih tinggi. Nilai serta simulasi skema yang dihasilkan juga dapat mengalami error akibat terlalu banyak data input atau keberadaan nilai parameter yang lebih kompleks. Oleh sebab itu, penggambaran grafik yang dihasilkan tidak selalu mulus. 
 3. Model hidrodinamika 2d sendiri dapat diartikan dengan penggambaran maupun tiruan dari suatu fenomena/kejadian/proses pada suatu waktu tertentu. Dengan penggunaan hidrodinamika 2d dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai. Untuk praktik pemodelan yang telah dilakukan, diketahui hubungan atau korelasi antara kecepatan angin dan tinggi gelombang yang sifatnya linier. Artinya, semakin besar angin yang bekerja (kecepatan dalam knots) pada suatu wilayah periaran maka semakin besar pula gelombang ataupun arus yang akan terbentuk. 
 
-## Ucapan Terima Kasih🫧
+## Ucapan Terima Kasih
 Demikian pemenuhan tugas akhir praktikum Pemodelan Oseanografi ini kami buat. 
 Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
 1. Seluruh dosen pengampu mata kuliah Pemodelan Oseanografi yang memberikan gambaran umum terkait setiap materi;
