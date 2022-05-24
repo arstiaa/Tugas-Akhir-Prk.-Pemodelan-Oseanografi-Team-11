@@ -212,8 +212,10 @@ Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dim
 - Hidrodinamika 1D
 
 Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran).
-```
 
+
+Proses awal
+```
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -294,10 +296,11 @@ for i in range (1, 16) :
             Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
     ax0.grid()
 ```
+
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
--
--
+
+
 
 ### 3.3. Hidrodinamika 2D
 📝Dasar Teori📝
