@@ -204,10 +204,14 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 
 **Penjelasan**
 
-Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dimana grafik pada gambar terbuat karena adanya matplotlib. Grafik tersebut ialah grafik polutan tracking. Polutan tracking ialah grafik yang menunjukkan polutan yang bergerak seiring berjalannya waktu. Untuk menganalisis grafik diatas kita harus mengetahui cara melihatnya, dimana grafik indeks biru/polutannya tersebut dilihat dari sudut pandang satelit. Pada hasil/output script ini juga memiliki arah yang menyesuaikan dengan arah mata angin. Terlihat pada gambar terdapat sudut yang menunjukkan salah polutannya terjadi. Pada hasil yang didapatkan pada coding ataupun script yang telah dilakukan juga menunjukkan kesesuai dengan pengertian polutan tracking dimana pada grafik atau output menunjukkan adanya perubahan waktu. Waktu yang tertera pada grafik dimulai dari 0,5s, 50,5s dan 100s dengan initial condition yang tetap yakni 570. Pada grafik juga menunjukkan bahwa arah polutan terjadi ialah kearah utara. Hal ini dapat kita lihat dari konsentrasi yang ada, dimana terjadi penurunan dari konsentarsi 200 menjadi 1,5. Penentuan arah memiliki ketentuan dimana 90 derajat itu adalah ke arah utara, 180 derajat itu adalah ke arah selatan. Pada grafik ini menunjukkan bahwa polutan ke arah utara atau 90 derajat. g  
+Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dimana grafik pada gambar di terbuat karena adanya matplotlib. Grafik tersebut ialah grafik polutan tracking. Polutan grafik ialah grafik yang dihasilkan  menunjukkan 
 
 ### 3.2. Hidrodinamika 1D
 ```
+- 📝Dasar Teori📝
+
+Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi, 
+
 #!/usr/bin/env python
 # coding: utf-8
 
