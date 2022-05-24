@@ -204,7 +204,7 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 
 **Penjelasan**
 
-Dari output atau gamabr yang dihasilakan, menyatakan bahwa 
+Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dimana grafik pada gambar di terbuat karena adanya matplotlib. Grafik tersebut ialah grafik polutan tracking. Polutan grafik ialah grafik yang dihasilkan  menunjukkan 
 
 ### 3.2. Hidrodinamika 1D
 ```
