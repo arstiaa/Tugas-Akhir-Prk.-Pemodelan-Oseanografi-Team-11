@@ -1,5 +1,5 @@
 # Tugas Akhir Prk.Pemodelan Oseanografi (Team 11)🗂
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, IPython, Scipy,_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script phyton (py)_ yang dapat memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan untuk _repository_ kali ini, menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook_. Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib,_ dan _NDBC_ (dari siphon.simplewebservice.ndbc). Seluruh _script_ yang dibuat adalah hasil Team 11 Oseanografi 2020. Semoga dapat bermanfaat!
 
 ## 1. AUTHORS (TEAM 11)👩🏻‍🧑🏻‍💻 
 1. Ariestia Finola Damanik 26050120120003 A
@@ -309,10 +309,10 @@ Anomali atau penyimpangan yang terjadi saat memodelkan hidrodinamika 2D biasanya
 - Kecepatan tidak dianggap seragam
 - Baik digunakan untuk gradien yang curam
 
-Dalam pelaksanaan Praktikum pemodelan Oseanografi yang telah dilakukan, dipelajari penggambaran serta interpretasi model di wilayah perairan, baik berupa aliran panjang dan dengan kedalaman tertentu. Dengan penggunaan model hidrodinamika 2 dimensi dapat diketahui identifikasi ketebalan persebaran oil spill di suatu perairan. Tidak hanya itu, model hidrodinamika 2d juga dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan coastal dynamics dan sedimentasi pantai.  Untuk lebih jelasnya, dapat dilihat contoh model data gelombang National Buoy Data Center (NDBC) di Peraian Hilo, Hawaii dekat Samudera Pasifik Utara dalam script berikut:
+Dalam pelaksanaan Praktikum pemodelan Oseanografi yang telah dilakukan, dipelajari penggambaran serta interpretasi model di wilayah perairan, baik berupa aliran panjang dan dengan kedalaman tertentu. Dengan penggunaan model hidrodinamika 2 dimensi dapat diketahui identifikasi ketebalan persebaran _oil spill_ di suatu perairan. Tidak hanya itu, model hidrodinamika 2d juga dapat digunakan untuk memodelkan dan menganalisis suatu fenomena seperti pemodelan gelombang akibat gaya pembangkit angin, pemodelan sampah plastik di laut dan pemodelan _coastal dynamics_ dan sedimentasi pantai.  Untuk lebih jelasnya, dapat dilihat contoh model data gelombang _National Buoy Data Center (NDBC)_ di Peraian Hilo, Hawaii dekat Samudera Pasifik Utara dalam _script_ berikut:
 
 **Contoh Pemodelan Hidrodinamika 2D**
-1. _Script_ dapat diambil melalui folder yang ada di repository ini
+1. _Script_ dapat diambil melalui folder yang ada di _repository_ ini.
 2. Pada awal _script_ diberikan keterangan terlebih dahulu, dimana data-data diambil.
 ```
 # In[1]:
@@ -328,7 +328,7 @@ The NDBC keeps a 45-day recent rolling file for each buoy. This examples shows h
 the basic meteorological data from a buoy and make a simple plot.
 """
 ```
-3. Dilakukan penginputan data dan _library_ 
+3. Dilakukan penginputan data dan _library_.
 ```
 import matplotlib.pyplot as plt
 
@@ -340,7 +340,7 @@ from siphon.simplewebservice.ndbc import NDBC
 df = NDBC.realtime_observations('51003') #Station ID
 df.head()
 ```
-4. Membuat _plot time series_ untuk _pressure, wind speed, gust, direction,_ dan _water temperature_
+4. Membuat _plot time series_ untuk _pressure, wind speed, gust, direction,_ dan _water temperature_.
 ```
 ###################################################
 # Let's make a simple time series plot to checkout what the data look like
@@ -367,9 +367,11 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 plt.show()
 ```
-5. Hasil _running script_
+5. Hasil _running script_.
 
 ![image](https://user-images.githubusercontent.com/89583653/169735133-878f2913-9057-4fc2-91c5-ba99444edcb1.png)
+
+**Penjelasan**
 
 Dari grafik yang ada, dapat diinterpretasikan hasil bahwa dalam rentang 45 hari model bersifat fluktuatif mulai dari terjadi naik ataupun turunnya parameter hidro-oseanografi yang bekerja. Seperti pada keberadaan kecepatan angin dan nilai tekanan cenderung berubah-ubah setiap harinya. Grafik yang dihasilkan antara angin dan tekanan tidak terlalu jauh berbeda, karena diketahui bahwa angin merupakan udara yang bergerak dikarenakan perbedaan tekanan di permukaan bumi. Sehingga perbedaan tekanan juga mempengaruhi perubahan kecepatan dan arah angin di permukaan laut. Dalam rentang 45 hari pengamatan, yakni bulan April-Mei diketahui memasuki musim Peralihan I dari musim kemarau ke hujan. Apabila dikaitkan dengan variabilitas musiman gelombang dan arus yang bekerja di Perairan Samudera Pasifik bagian Utara maka pengaruh musim kemarau masih mendominasi. Didapatkan pula nilai tertinggi suhu permukaan laut di bulan April-Mei yaitu 26,4 derajat C dan nilai minimum yaitu 25,4 derajat C. Tinggi rendahnya nilai suhu permukaan laut diduga akibat pengaruh pergerakan angin yang bekerja. Suhu minimal terjadi akibat keberadaan angin muson tenggara yang bertiup dan menyebabkan terjadinya Transpor Ekman, sehingga terjadi kekosongan yang berakibat naiknya air (upwelling) yang membawa suhu rendah dari bawah menuju ke lapisan permukaan.
 
@@ -382,7 +384,7 @@ Secara terperinci, berdasarkan praktikum Pemodelan Oseanografi sebanyak 4 modul 
 
 ## Ucapan Terima Kasih
 Demikian pemenuhan tugas akhir praktikum Pemodelan Oseanografi ini kami buat. 
-Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Tak lupa, Tim 11 selaku author dari repository kali ini juga mengucapkan terimakasih kepada:
+Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan secara dalam tugas akhir ini. Tak lupa, Tim 11 selaku _author_ dari _repository_ kali ini juga mengucapkan terimakasih kepada:
 1. Seluruh dosen pengampu mata kuliah Pemodelan Oseanografi yang memberikan gambaran umum terkait setiap materi;
     Dr. Aris Ismanto, S.Si, M.Si.
     Prof. Dr. Denny Nugroho Sugianto S.T., M.Si.
@@ -395,7 +397,7 @@ Seluruh authors memohon maaf apabila masih terdapat kesalahan dan kekurangan sec
     Yoas Heryanto
 4. Rekan-rekan Oseanografi 2020 yang turut membantu dan mendukung penyelesaian tugas akhir.
 
-Tidak menutup kemungkinan, bahwa repository ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran masih sangat diperlukan agar dapat menjadikannya lebih baik. Diharapkan pula, dengan adanya repository ini dapat memberikan kebermanfaatan untuk semua.
+Tidak menutup kemungkinan, bahwa _repository_ ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran masih sangat diperlukan agar dapat menjadikannya lebih baik. Diharapkan pula, dengan adanya _repository_ ini dapat memberikan kebermanfaatan untuk semua.
 
 Terima kasih.
 
