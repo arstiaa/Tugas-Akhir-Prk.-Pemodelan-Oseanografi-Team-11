@@ -206,6 +206,9 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 
 Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dimana grafik pada gambar di terbuat karena adanya matplotlib. Grafik tersebut ialah grafik polutan tracking. Polutan grafik ialah grafik yang dihasilkan  menunjukkan 
 
+
+
+
 ### 3.2. Hidrodinamika 1D
 
 📝Dasar Teori📝
@@ -218,13 +221,17 @@ Model Hidrodinamika 1D ini dibangun berdasarkan hukum konservasi massa/kontinuit
 
 
 📝Persamaan Pembangun📝
+
 persamaan pembangun yang digunakan adalah sebagai berikut
+
 ![image](https://user-images.githubusercontent.com/105837184/170101718-f7bc7a4a-a6fb-4709-87f5-a19c4533cd57.png)
 
 diskritisasi dari persamaan pembangun adalah sebagai berikut
+
 ![image](https://user-images.githubusercontent.com/105837184/170101946-2a32fa2c-15c4-4e95-ae49-b551decc50af.png)
 
 penyelesaiaan analitik yang dapat dilakukan adalah sebagai berikut
+
 ![image](https://user-images.githubusercontent.com/105837184/170102078-d2f84fa9-849c-4f7e-935e-38522885b6f5.png)
 
 
@@ -242,6 +249,7 @@ Pada pelaksanaan pembuatan model hidrodinamika memiliki beberapa kelemahan, dian
 4.  _Script_ perhitungan dibuat untuk mengetahui perubahan kecepatan dan perubahan elevasi.
 5.  _Script output_ gambar dibuat untuk mendapatkan gambar perubahan kecepatan dan perubahan elevasi.
 6.  _Script_ dapat di-_run_.
+
 
 Proses awal
 ```
@@ -329,6 +337,7 @@ for i in range (1, 16) :
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
 Gambar tersebut merupakan salah satu contoh hasil running _script_ yaitu Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu. Pada awal grid didapatkan kurva halus dan rapi. Hal ini terjadi karena perhitungan yang dilakukan masih menggunkaann paramater dengan nilai yang kecil. Mulai pada waktu ±160, bentuk kurva mulai mengalami perubahan menjadi tak beraturan. Hal ini karena perhitungan yang dilakukan parameternya mulai kompleks. Kecepatan arus tertinggi adalah 1.8 m/s dan terdapat pada waktu ±315.
+
 
 
 
