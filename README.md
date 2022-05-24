@@ -211,18 +211,24 @@ Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dim
 📝Dasar Teori📝
 - Hidrodinamika 1D
 
-Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran). Model Hidrodinamika 1D ini dibangun berdasarkan hukum konservasi massa/kontinuitas dan hukum momentum
+Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran).
 
-![image](https://user-images.githubusercontent.com/105837184/170101308-35744020-2058-4202-a1c6-a256d4ea51f4.png)
+📝Deskritisasi Persamaan Hidrodinamika 1D📝
 
+Untuk membentuk suatu persamaan model 1D yang mendekati proses kejadian di alam maka perlu adanya deskritisasi terhadap persamaan tersebut. Deskritisasi merupakan suatu metode untuk mencari solusi persamaan secara numerik dari suatu persamaan matematika sehingga dapat dinyatakan baik dalam dimensi ruang ataupun waktu. dalam praktikum ini menggunakan persamaan momentum dan persamaan kontinuitas. 
+Berikkut adalah persamaanya :
 
-📝Persamaan📝
+-Persamaan Momentum
 
+![MOMEMTUM](https://user-images.githubusercontent.com/105838149/170103372-aceab095-a784-4290-8df4-79a72c3e7015.png)
 
+-Persamaan Kontinuitas
 
+![KONTINUITAS](https://user-images.githubusercontent.com/105838149/170103576-4be8e5a8-ee4d-47c3-b6aa-060a89669ec8.png)
 
-Proses awal
+Diskritisasi persamaan diatas secara numerik yang dilakukan secara eksplisit harus memiliki kriteria stabilitas yang digunakan seperti Courant Freiderichs Lewy (CFL) yang dapat melalui rumus (∆t ˂ ∆x) = (√gh)
 ```
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -303,11 +309,10 @@ for i in range (1, 16) :
             Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
     ax0.grid()
 ```
-
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
-
-
+-
+-
 
 ### 3.3. Hidrodinamika 2D
 📝Dasar Teori📝
