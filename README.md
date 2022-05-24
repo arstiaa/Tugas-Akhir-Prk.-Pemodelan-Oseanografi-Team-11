@@ -336,6 +336,8 @@ for i in range (1, 16) :
 
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
+**Penjelasan**
+
 Gambar tersebut merupakan salah satu contoh hasil running _script_ yaitu Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu. Pada awal grid didapatkan kurva halus dan rapi. Hal ini terjadi karena perhitungan yang dilakukan masih menggunkaann paramater dengan nilai yang kecil. Mulai pada waktu ±160, bentuk kurva mulai mengalami perubahan menjadi tak beraturan. Hal ini karena perhitungan yang dilakukan parameternya mulai kompleks. Kecepatan arus tertinggi adalah 1.8 m/s dan terdapat pada waktu ±315.
 
 
