@@ -227,6 +227,9 @@ Berikkut adalah persamaanya :
 ![KONTINUITAS](https://user-images.githubusercontent.com/105838149/170103576-4be8e5a8-ee4d-47c3-b6aa-060a89669ec8.png)
 
 Diskritisasi persamaan diatas secara numerik yang dilakukan secara eksplisit harus memiliki kriteria stabilitas yang digunakan seperti Courant Freiderichs Lewy (CFL) yang dapat melalui rumus (∆t ˂ ∆x) = (√gh)
+
+**Contoh Pemodelan Hidrodinamika 1D**
+
 ```
 
 #!/usr/bin/env python
