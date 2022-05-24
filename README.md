@@ -211,7 +211,14 @@ Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dim
 📝Dasar Teori📝
 - Hidrodinamika 1D
 
-Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran).
+Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran). Model Hidrodinamika 1D ini dibangun berdasarkan hukum konservasi massa/kontinuitas dan hukum momentum
+
+![image](https://user-images.githubusercontent.com/105837184/170101308-35744020-2058-4202-a1c6-a256d4ea51f4.png)
+
+
+📝Persamaan📝
+
+
 
 
 Proses awal
