@@ -202,6 +202,9 @@ Kriteria kestabilan merupakan suatu metode untuk menentukan seberapa besarnilai 
 
 ![200](https://user-images.githubusercontent.com/105839721/169779983-e2037773-9479-40e4-b324-25b400f48f94.jpg)
 
+**Penjelasan**
+
+Dari output atau gamabr yang dihasilakan, menyatakan bahwa 
 
 ### 3.2. Hidrodinamika 1D
 ```
