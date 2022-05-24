@@ -212,26 +212,39 @@ Gambar di atas adalah output dari script yang telah disusun sedemikian rupa. Dim
 - Hidrodinamika 1D
 
 Hidrodinamika adalah cabang dari mekanika fluida, juga cabang ilmu yang mempelajari tentang fenomena yang terjadi pada fluida, khususnya zat cair incompressible yang di pengaruhi oleh gaya internal dan eksternal, pada umumnya zat cairakan mengalami deformasi, elastis, plastis, dan mengalir akibat adanya suatu gaya. Dalam hidrodinamika laut gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dangaya coriolis . Dalam oseanografi, mekanika fluida digunakan berdasarkan mekanika Newton yang dimodifikasi dengan memperhitungkan turbelensi. Hidrodinamika 1D sendiri ditinjau hanya dari satu arah saja yaitu sumbu X (Tegak Lurus Terhadap Aliran).
+Model Hidrodinamika 1D ini dibangun berdasarkan hukum konservasi massa/kontinuitas dan hukum momentum
 
-📝Deskritisasi Persamaan Hidrodinamika 1D📝
+![image](https://user-images.githubusercontent.com/105837184/170101308-35744020-2058-4202-a1c6-a256d4ea51f4.png)
 
-Untuk membentuk suatu persamaan model 1D yang mendekati proses kejadian di alam maka perlu adanya deskritisasi terhadap persamaan tersebut. Deskritisasi merupakan suatu metode untuk mencari solusi persamaan secara numerik dari suatu persamaan matematika sehingga dapat dinyatakan baik dalam dimensi ruang ataupun waktu. dalam praktikum ini menggunakan persamaan momentum dan persamaan kontinuitas. 
-Berikkut adalah persamaanya :
 
--Persamaan Momentum
+📝Persamaan Pembangun📝
+persamaan pembangun yang digunakan adalah sebagai berikut
+![image](https://user-images.githubusercontent.com/105837184/170101718-f7bc7a4a-a6fb-4709-87f5-a19c4533cd57.png)
 
-![MOMEMTUM](https://user-images.githubusercontent.com/105838149/170103372-aceab095-a784-4290-8df4-79a72c3e7015.png)
+diskritisasi dari persamaan pembangun adalah sebagai berikut
+![image](https://user-images.githubusercontent.com/105837184/170101946-2a32fa2c-15c4-4e95-ae49-b551decc50af.png)
 
--Persamaan Kontinuitas
+penyelesaiaan analitik yang dapat dilakukan adalah sebagai berikut
+![image](https://user-images.githubusercontent.com/105837184/170102078-d2f84fa9-849c-4f7e-935e-38522885b6f5.png)
 
-![KONTINUITAS](https://user-images.githubusercontent.com/105838149/170103576-4be8e5a8-ee4d-47c3-b6aa-060a89669ec8.png)
 
-Diskritisasi persamaan diatas secara numerik yang dilakukan secara eksplisit harus memiliki kriteria stabilitas yang digunakan seperti Courant Freiderichs Lewy (CFL) yang dapat melalui rumus (∆t ˂ ∆x) = (√gh)
+📝Kelemahan Model Hidrodinamika📝
+Pada pelaksanaan pembuatan model hidrodinamika memiliki beberapa kelemahan, diantaranya
+1. Banyak data yang dibutuhkan
+2. Rawan eror ketika terdapat perhitungan aliran kritis
+3. simulasi lama karena dipengaruhi oleh time step yang cenderung harus kecil serta waktu running yang lama..
+
 
 **Contoh Pemodelan Hidrodinamika 1D**
+1. _Script_ dapat diambil melalui folder yang ada di _repository_ ini.
+2.  _Mandatory library python matploblib_ dimasukkan untuk dapat memberikan efek visual pada grafik, kemudian _numpy_ untuk perhitungan numerik.
+3.  Parameter perhitungan awal dimasukkan.
+4.  _Script_ perhitungan dibuat untuk mengetahui perubahan kecepatan dan perubahan elevasi.
+5.  _Script output_ gambar dibuat untuk mendapatkan gambar perubahan kecepatan dan perubahan elevasi.
+6.  _Script_ dapat di-_run_.
 
+Proses awal
 ```
-
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -312,10 +325,12 @@ for i in range (1, 16) :
             Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
     ax0.grid()
 ```
+
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
--
--
+Gambar tersebut merupakan salah satu contoh hasil running _script_ yaitu Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu. Pada awal grid didapatkan kurva halus dan rapi. Hal ini terjadi karena perhitungan yang dilakukan masih menggunkaann paramater dengan nilai yang kecil. Mulai pada waktu ±160, bentuk kurva mulai mengalami perubahan menjadi tak beraturan. Hal ini karena perhitungan yang dilakukan parameternya mulai kompleks. Kecepatan arus tertinggi adalah 1.8 m/s dan terdapat pada waktu ±315.
+
+
 
 ### 3.3. Hidrodinamika 2D
 📝Dasar Teori📝
