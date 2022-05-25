@@ -218,6 +218,7 @@ Model Hidrodinamika 1D ini dibangun berdasarkan hukum konservasi massa/kontinuit
 
 
 📝Persamaan Pembangun📝
+
 persamaan pembangun yang digunakan adalah sebagai berikut :
 
 ![image](https://user-images.githubusercontent.com/105837184/170101718-f7bc7a4a-a6fb-4709-87f5-a19c4533cd57.png)
@@ -242,12 +243,6 @@ Pada pelaksanaan pembuatan model hidrodinamika memiliki beberapa kelemahan, dian
 **Contoh Pemodelan Hidrodinamika 1D**
 1. _Script_ dapat diambil melalui folder yang ada di _repository_ ini.
 2.  _Mandatory library python matploblib_ dimasukkan untuk dapat memberikan efek visual pada grafik, kemudian _numpy_ untuk perhitungan numerik.
-3.  Parameter perhitungan awal dimasukkan.
-4.  _Script_ perhitungan dibuat untuk mengetahui perubahan kecepatan dan perubahan elevasi.
-5.  _Script output_ gambar dibuat untuk mendapatkan gambar perubahan kecepatan dan perubahan elevasi.
-6.  _Script_ dapat di-_run_.
-
-Proses awal
 ```
 #!/usr/bin/env python
 # coding: utf-8
@@ -257,7 +252,10 @@ Proses awal
 
 import matplotlib.pyplot as plt
 import numpy as np
+```
 
+3.  Parameter perhitungan awal dimasukkan.
+```
 #
 # Proses Awal
 # 
@@ -280,7 +278,7 @@ Mmax = int(p//dx)
 Nmax = int(T//dt)
 ```
 
-Script Perhitungan
+4.  _Script_ perhitungan dibuat untuk mengetahui perubahan kecepatan dan perubahan elevasi.
 ```
 zo = [None for _ in range(Mmax)]
 uo = [None for _ in range (Mmax)]
@@ -307,7 +305,7 @@ for i in range(1, Nmax+1) :
         zo[p] = zb[p]
 ```
 
-Hasil Gambar
+5.  _Script output_ gambar dibuat untuk mendapatkan gambar perubahan kecepatan dan perubahan elevasi.
 ```
 #
 # PEMBUATAN GRAFIK
@@ -329,6 +327,11 @@ for i in range (1, 16) :
             Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
     ax0.grid()
 ```
+
+8.  _Script_ dapat di-_run_.
+
+
+Hasil Gambar
 
 ![1](https://user-images.githubusercontent.com/105837184/169705728-28e87ab8-1f48-4008-8ce1-9ddf725e809d.png)
 
