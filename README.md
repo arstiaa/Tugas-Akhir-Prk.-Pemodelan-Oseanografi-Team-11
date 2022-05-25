@@ -231,6 +231,11 @@ penyelesaiaan analitik yang dapat dilakukan adalah sebagai berikut :
 
 ![image](https://user-images.githubusercontent.com/105837184/170102078-d2f84fa9-849c-4f7e-935e-38522885b6f5.png)
 
+📝Konsep Hidrodinamika 1D📝
+
+1. Variabel yang ditinjau hanya dari satu arah saja
+2. water level selalu seragam dan tidak dipengaruhi oleh kedalaman
+3. digunakan pada permodelan dalam kemiringan yang rendah
 
 📝Kelemahan Model Hidrodinamika📝
 
